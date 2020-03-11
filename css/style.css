@@ -2,3 +2,15 @@
     font-family: TTCommons;
     src: url(fonts/TTCommons.woff);
 }
+
+@font-face {
+    font-family: Pangram;
+    src: url(fonts/Pangram.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: TTCommons;
+}
