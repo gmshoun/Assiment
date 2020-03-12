@@ -1,217 +1,414 @@
 @font-face {
-    font-family: TTCommons;
-    src: url(fonts/TTCommons.woff);
+  font-family: TTCommons;
+  src: url(fonts/TTCommons.woff);
 }
 
 @font-face {
-    font-family: Pangram;
-    src: url(fonts/Pangram.woff);
+  font-family: Pangram;
+  src: url(fonts/Pangram.woff);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: TTCommons;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: TTCommons;
 }
 
 /* comman css */
 a {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 
 .container {
-    width: 1170px;
-    margin: auto;
+  width: 1170px;
+  margin: auto;
 }
 
 .content-Area {
-    display: flex;
+  display: flex;
 }
 
 .left-content {
-    width: 50%;
+  width: 50%;
 }
 
 .right-content {
-    width: 50%;
+  width: 50%;
 }
 
 /* comman css */
 
-
 /* header css start */
 header {
-    position: absolute;
-    width: 100%;
-    padding: 15px 0;
+  position: absolute;
+  width: 100%;
+  padding: 15px 0;
 }
 
 header nav {}
 
 .navbar {
-    display: flex;
-    border-bottom: 1px solid #ffffff26;
-    padding-bottom: 17px;
+  display: flex;
+  border-bottom: 1px solid #ffffff26;
+  padding-bottom: 17px;
 }
 
 .logo-aera {
-    width: 231px;
-    margin-top: 7px;
+  width: 231px;
+  margin-top: 7px;
 }
 
 .logo-aera img {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-menu {}
 
 .nav-menu ul {
-    list-style: none;
-    text-align: right;
+  list-style: none;
+  text-align: right;
 }
 
 .nav-menu ul li {
-    display: inline-block;
-    padding-left: 32px;
+  display: inline-block;
+  padding-left: 32px;
 }
 
 .nav-menu ul li a {
-    color: white;
+  color: white;
 }
 
 #b {
-    background: #00B0FF;
-    padding: 10px;
-    border-radius: 5px;
+  background: #00b0ff;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .nav-menu ul li button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color:
-        white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
 }
-
-
 
 /* header css end */
 
+/* ***************&*********************** */
+/* ***************&*********************** */
 
 /* section-1 css start */
 
 .sec-1 {
-    background-image: url(../images/Mask\ Group\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 80px;
+  background-image: url(../images/sec-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
 }
 
 .text-aera {
-    margin-top: 186px;
+  margin-top: 186px;
 }
 
 .text-aera h1 {
-    color: #fff;
-    font-size: 73px;
-    line-height: 85px;
-    padding-bottom: 56px;
+  color: #fff;
+  font-size: 73px;
+  line-height: 85px;
+  padding-bottom: 56px;
 }
 
 .text-aera p {
-    color: #fff;
-    font-size: 20px;
-    line-height: 31px;
-    padding-bottom: 120px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 31px;
+  padding-bottom: 120px;
 }
 
 .text-aera button {
-    border: none;
-    color: #fff;
-    margin-right: 19px;
-    margin-bottom: 200px;
+  border: none;
+  color: #fff;
+  margin-right: 19px;
+  margin-bottom: 200px;
 }
 
 #arrow {
-    background: #00B0FF;
-    padding: 13px 25px;
-    border-radius: 5px;
-    font-size: 17px;
-    color: #fff;
+  background: #005fcb;
+  padding: 13px 25px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
 }
 
 #arrow span {
-    padding-right: 12px;
+  padding-right: 12px;
 }
 
 #calling {
-    background: #00B0FF;
-    padding: 12px 16px;
-    border-radius: 5px;
-    font-size: 17px;
-    cursor: pointer;
+  background: #00b0ff;
+  padding: 12px 16px;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 #calling span {
-    padding-left: 14px;
+  padding-left: 14px;
 }
 
 /* section-1 css end */
+
+/* ***************&*********************** */
+/* ***************&*********************** */
+
 /* section-2 css start */
-.sce {}
+.sce-2 {}
 
 #left-pic {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 #left-pic img {
-    width: 95%;
-    margin-left: -38px;
+  width: 95%;
+  margin-left: -38px;
 }
 
 #right-text {
-    text-align: initial;
-    padding-left: 53px;
-    margin-top: 120px;
+  text-align: initial;
+  /*! padding-left: 53px; */
+  margin-top: 120px;
 }
 
 #right-text h2 {
-    font-size: 48px;
-    color: #4D4D4D;
-    margin-bottom: 50px;
+  font-size: 48px;
+  color: #4d4d4d;
+  margin-bottom: 50px;
 }
 
 #right-text p {
-    color: #858585;
-    font-size: 24px;
-    text-align: justify;
-    margin-bottom: 72px;
+  color: #858585;
+  font-size: 24px;
+  text-align: justify;
+  margin-bottom: 72px;
 }
 
 .house-icon {
-    position: relative;
-    right: 107px;
-    width: 86px;
-    top: 100px;
+  position: relative;
+  right: 107px;
+  width: 86px;
+  top: 100px;
 }
 
 .house-icon img {
-    width: 100%;
+  width: 100%;
 }
 
 #arrow-2 {
-    background: #00B0FF;
-    padding: 13px 25px;
-    border-radius: 5px;
-    font-size: 17px;
-    color: #fff;
+  background: #00b0ff;
+  padding: 13px 25px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #fff;
 }
 
 #arrow-2 span {
-    padding-right: 12px;
+  padding-right: 12px;
 }
 
-
 /* section-2 css end */
+/* section-3 */
+.sec-3 {
+  background-image: url(../images/sec-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -18px;
+  background-position: top center;
+}
+
+.left-title {
+  margin-top: 241px;
+  margin-bottom: 88px;
+}
+
+.left-title h2 {
+  font-size: 48px;
+  color: #4d4d4d;
+}
+
+.group-02 {
+  margin-bottom: -30px;
+}
+
+.group-02 img {
+  width: 95%;
+  margin-left: -41px;
+}
+
+.right-area {
+  margin-top: 255px;
+}
+
+.right-area h6 {
+  font-size: 18px;
+  text-align: justify;
+  color: #151137;
+  line-height: 29px;
+}
+
+.right-area p {
+  margin-top: 110px;
+  font-size: 14px;
+  color: #00b0ff;
+}
+
+.content-menu {
+  padding-top: 12px;
+}
+
+.content-menu ul {
+  list-style: none;
+}
+
+.content-menu ul li {
+  margin-top: 21px;
+  background: white;
+  padding: 16px;
+  border-radius: 7px;
+  color: #53566d;
+  font-size: 22px;
+}
+
+.content-menu ul li span {
+  display: block;
+  float: right;
+}
+
+/* section-3 css end*/
+
+/* ***************&*********************** */
+/* ***************&*********************** */
+
+/* section-4 css start*/
+
+.sec-4 {
+  background-image: url(../images/sec-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-1 {
+  margin-top: 108px;
+}
+
+.title-1 h2 {
+  color: #4D4D4D;
+  font-size: 48px;
+}
+
+.disp-1 {
+  margin-top: 108px;
+}
+
+.disp-1 p {
+  color: #707070;
+  font-size: 24px;
+  text-align: justify;
+  line-height: 36px;
+}
+
+/* ***************&*********************** */
+/* ***************&*********************** */
+/* blog blocks css start */
+
+.blog-part {
+  margin-top: 76px;
+  display: flex;
+}
+
+.blog-1 {
+  margin-right: 30px;
+}
+
+.blog {
+  width: 370px;
+  background: white;
+  border-radius: 21px;
+}
+
+.blog-pic {
+  margin-bottom: 20px;
+}
+
+.blog-pic img {
+  width: 100%;
+}
+
+.blog-text {
+  padding: 0 18px;
+  padding-bottom: 31px;
+}
+
+.blog-text h4 {
+  font-size: 21px;
+  margin-bottom: 15px;
+  line-height: 31px;
+  color: #000c;
+}
+
+.blog-text p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #00000091;
+}
+
+.blog-text p a {
+  color: orange;
+}
+
+.social {
+  padding: 0 26px;
+  padding-bottom: 25px;
+  display: flex;
+  color: #00000070;
+}
+
+.like {
+  margin-right: 18px;
+}
+
+.fas.fa-thumbs-up {
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.like span {
+  padding: 4px;
+  font-size: 21px;
+}
+
+.viwes {}
+
+.fas.fa-eye {
+  padding: 7px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.viwes span {
+  padding: 4px;
+  font-size: 21px;
+}
+
+.blog-2 {
+  margin-right: 30px;
+}
+
+.blog-3 {}
+
+/* blog blocks css end*/
+
+/* ***************&*********************** */
+/* ***************&*********************** */
+
+/* section-4 css end*/
