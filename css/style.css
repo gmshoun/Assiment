@@ -14,3 +14,204 @@
     box-sizing: border-box;
     font-family: TTCommons;
 }
+
+/* comman css */
+a {
+    text-decoration: none;
+
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.content-Area {
+    display: flex;
+}
+
+.left-content {
+    width: 50%;
+}
+
+.right-content {
+    width: 50%;
+}
+
+/* comman css */
+
+
+/* header css start */
+header {
+    position: absolute;
+    width: 100%;
+    padding: 15px 0;
+}
+
+header nav {}
+
+.navbar {
+    display: flex;
+    border-bottom: 1px solid #ffffff26;
+    padding-bottom: 17px;
+}
+
+.logo-aera {
+    width: 231px;
+    margin-top: 7px;
+}
+
+.logo-aera img {
+    width: 100%;
+}
+
+.nav-menu {}
+
+.nav-menu ul {
+    list-style: none;
+    text-align: right;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    padding-left: 32px;
+}
+
+.nav-menu ul li a {
+    color: white;
+}
+
+#b {
+    background: #00B0FF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-menu ul li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color:
+        white;
+}
+
+
+
+/* header css end */
+
+
+/* section-1 css start */
+
+.sec-1 {
+    background-image: url(../images/Mask\ Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.text-aera {
+    margin-top: 186px;
+}
+
+.text-aera h1 {
+    color: #fff;
+    font-size: 73px;
+    line-height: 85px;
+    padding-bottom: 56px;
+}
+
+.text-aera p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 31px;
+    padding-bottom: 120px;
+}
+
+.text-aera button {
+    border: none;
+    color: #fff;
+    margin-right: 19px;
+    margin-bottom: 200px;
+}
+
+#arrow {
+    background: #00B0FF;
+    padding: 13px 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+}
+
+#arrow span {
+    padding-right: 12px;
+}
+
+#calling {
+    background: #00B0FF;
+    padding: 12px 16px;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#calling span {
+    padding-left: 14px;
+}
+
+/* section-1 css end */
+/* section-2 css start */
+.sce {}
+
+#left-pic {
+    margin-top: 100px;
+}
+
+#left-pic img {
+    width: 95%;
+    margin-left: -38px;
+}
+
+#right-text {
+    text-align: initial;
+    padding-left: 53px;
+    margin-top: 120px;
+}
+
+#right-text h2 {
+    font-size: 48px;
+    color: #4D4D4D;
+    margin-bottom: 50px;
+}
+
+#right-text p {
+    color: #858585;
+    font-size: 24px;
+    text-align: justify;
+    margin-bottom: 72px;
+}
+
+.house-icon {
+    position: relative;
+    right: 107px;
+    width: 86px;
+    top: 100px;
+}
+
+.house-icon img {
+    width: 100%;
+}
+
+#arrow-2 {
+    background: #00B0FF;
+    padding: 13px 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+}
+
+#arrow-2 span {
+    padding-right: 12px;
+}
+
+
+/* section-2 css end */
