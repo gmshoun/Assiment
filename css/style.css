@@ -16,6 +16,11 @@
 }
 
 /* comman css */
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 a {
   text-decoration: none;
 }
@@ -46,7 +51,8 @@ header {
   padding: 15px 0;
 }
 
-header nav {}
+header nav {
+}
 
 .navbar {
   display: flex;
@@ -63,7 +69,8 @@ header nav {}
   width: 100%;
 }
 
-.nav-menu {}
+.nav-menu {
+}
 
 .nav-menu ul {
   list-style: none;
@@ -162,7 +169,8 @@ header nav {}
 /* ***************&*********************** */
 
 /* section-2 css start */
-.sce-2 {}
+.sce-2 {
+}
 
 #left-pic {
   margin-top: 100px;
@@ -294,6 +302,9 @@ header nav {}
   background-image: url(../images/sec-4.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom right;
+  padding-bottom: 161px;
+  position: relative;
 }
 
 .title-1 {
@@ -301,7 +312,7 @@ header nav {}
 }
 
 .title-1 h2 {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-size: 48px;
 }
 
@@ -387,7 +398,8 @@ header nav {}
   font-size: 21px;
 }
 
-.viwes {}
+.viwes {
+}
 
 .fas.fa-eye {
   padding: 7px;
@@ -404,7 +416,8 @@ header nav {}
   margin-right: 30px;
 }
 
-.blog-3 {}
+.blog-3 {
+}
 
 /* blog blocks css end*/
 
@@ -412,3 +425,107 @@ header nav {}
 /* ***************&*********************** */
 
 /* section-4 css end*/
+/* section-5 start */
+.sec-5 {
+  background-image: url(../images/sec-5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 243px;
+  margin-top: -203px;
+  margin-right: -8px;
+}
+.profile-Area {
+}
+.profile-title {
+}
+.profile-title h2 {
+  font-size: 37px;
+  margin-bottom: 32px;
+  color: #4d4d4d;
+}
+.profile-title p {
+  font-size: 17px;
+  color: #757575;
+}
+.profile-content {
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.profile {
+  background: white;
+  margin-right: 40px;
+  border-radius: 23px;
+}
+.profile-2 {
+  background: white;
+  border-radius: 23px;
+}
+
+.profile-head {
+  display: flex;
+}
+.profile-pic {
+  margin: 17px;
+  width: 80px;
+}
+.profile-pic img {
+  width: 100%;
+  border-radius: 23px;
+}
+.profile-name {
+  margin-top: 24px;
+}
+.profile-name h4 {
+  font-size: 22px;
+}
+.profile-name h6 {
+  margin-top: 17px;
+  font-size: 12px;
+  color: #707070;
+}
+.profile-body {
+  margin-left: 19px;
+  margin-top: 16px;
+  padding-right: 83px;
+}
+.profile-body p {
+  color: #707070;
+  margin-bottom: 25px;
+}
+.profile-icon {
+  margin-left: 21px;
+  margin-bottom: 25px;
+  color: #ffb011;
+}
+.profile-footer {
+  display: flex;
+  padding-bottom: 100px;
+}
+.left-arrow {
+  background: white;
+  border-radius: 50%;
+  padding: 22px;
+
+  font-size: 22px;
+  box-shadow: -2px 7px 23px -17px;
+}
+.hrz {
+  width: 509px;
+  margin: 34px auto;
+  box-shadow: 0px 14px 20px -1px;
+}
+.hrz hr {
+  height: 3px;
+  border: none;
+  background: #376eff5e;
+}
+.right-arrow {
+  background: white;
+  border-radius: 50%;
+  padding: 22px;
+
+  font-size: 22px;
+  box-shadow: 5px 7px 23px -17px;
+}
+/* section-5 start */
