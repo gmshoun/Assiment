@@ -52,8 +52,6 @@ header {
   padding: 15px 0;
 }
 
-header nav {}
-
 .navbar {
   display: flex;
   border-bottom: 1px solid #ffffff26;
@@ -69,7 +67,6 @@ header nav {}
   width: 100%;
 }
 
-.nav-menu {}
 
 .nav-menu ul {
   list-style: none;
@@ -168,7 +165,6 @@ header nav {}
 /* ***************&*********************** */
 
 /* section-2 css start */
-.sce-2 {}
 
 #left-pic {
   margin-top: 100px;
@@ -396,8 +392,6 @@ header nav {}
   font-size: 21px;
 }
 
-.viwes {}
-
 .fas.fa-eye {
   padding: 7px;
   border: 1px solid;
@@ -412,8 +406,6 @@ header nav {}
 .blog-2 {
   margin-right: 30px;
 }
-
-.blog-3 {}
 
 /* blog blocks css end*/
 
@@ -431,10 +423,6 @@ header nav {}
   margin-right: -8px;
   padding-bottom: 110px;
 }
-
-.profile-Area {}
-
-.profile-title {}
 
 .profile-title h2 {
   font-size: 37px;
@@ -681,20 +669,24 @@ footer {
   margin-left: 92px;
 }
 
-.footer-two h2 {}
+.footer-list {
+  margin-top: 29px;
+}
 
-.footer-list {margin-top: 29px;}
+.footer-list ul {
+  list-style: none;
+}
 
-.footer-list ul {list-style: none;}
+.footer-list ul li {
+  line-height: 38px;
+}
 
-.footer-list ul li {line-height: 38px;}
-
-.footer-list ul li a {color: #fff;}
+.footer-list ul li a {
+  color: #fff;
+}
 
 .footer-three {
   margin: 0 133px;
 }
-
-.footer-four {}
 
 /* footer */
