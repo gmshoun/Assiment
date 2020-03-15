@@ -1,11 +1,11 @@
 @font-face {
-  font-family: TTCommons;
-  src: url(fonts/TTCommons.woff);
+  font-family: 'TTCommons';
+  src: url(../fonts/TTCommons.woff);
 }
 
 @font-face {
-  font-family: Pangram;
-  src: url(fonts/Pangram.woff);
+  font-family: 'Pangram';
+  src: url(../fonts/Pangram.woff);
 }
 
 * {
@@ -20,8 +20,11 @@ html,
 body {
   overflow-x: hidden;
   overflow-y: auto;
+  background: #F5FCFF;
 }
-
+h1{
+  font-family: 'Pangram';
+}
 a {
   text-decoration: none;
 }
@@ -107,10 +110,12 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
+  padding-bottom: 200px;
+  overflow: hidden;
 }
 
 .text-aera {
-  margin-top: 186px;
+  padding-top: 150px;
 }
 
 .text-aera h1 {
@@ -131,9 +136,10 @@ header {
   border: none;
   color: #fff;
   margin-right: 19px;
-  margin-bottom: 200px;
 }
-
+.text-aera button:last-child{
+  margin: 0;
+}
 #arrow {
   background: #005fcb;
   padding: 13px 25px;
@@ -141,6 +147,7 @@ header {
   font-size: 17px;
   color: #fff;
   cursor: pointer;
+  display: inline-block;
 }
 
 #arrow span {
@@ -223,8 +230,8 @@ header {
   background-image: url(../images/sec-3.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -18px;
   background-position: top center;
+  overflow: hidden;
 }
 
 .left-title {
@@ -244,6 +251,8 @@ header {
 .group-02 img {
   width: 95%;
   margin-left: -41px;
+  position: relative;
+  z-index: 1;
 }
 
 .right-area {
@@ -297,8 +306,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
-  padding-bottom: 161px;
+  padding-bottom: 160px;
   position: relative;
+  overflow: hidden;
 }
 
 .title-1 {
@@ -415,13 +425,11 @@ header {
 /* section-4 css end*/
 /* section-5 start */
 .sec-5 {
-  background-image: url(../images/sec-5.png);
+  /*! background-image: url(../images/sec-5.png); */
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 243px;
-  margin-top: -203px;
-  margin-right: -8px;
   padding-bottom: 110px;
+  overflow: hidden;
 }
 
 .profile-title h2 {
@@ -445,6 +453,7 @@ header {
   background: white;
   margin-right: 40px;
   border-radius: 23px;
+  box-shadow: 20px 30px 60px #f562f1;
 }
 
 .profile-2 {
@@ -498,40 +507,59 @@ header {
 }
 
 .profile-footer {
-  display: flex;
-  padding-bottom: 100px;
+  position: relative;
 }
 
 .left-arrow {
   background: white;
   border-radius: 50%;
-  padding: 22px;
 
-  font-size: 22px;
   box-shadow: -2px 7px 23px -17px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0,-50%);
 }
-
+.left-arrow i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+}
 .hrz {
-  width: 509px;
-  margin: 34px auto;
-  box-shadow: 0px 14px 20px -1px;
+  width: 700px;
+  margin: auto;
 }
 
 .hrz hr {
   height: 3px;
   border: none;
   background: #376eff5e;
+  box-shadow: 0 2px 3px #9ae7ff4f;
 }
 
 .right-arrow {
+
   background: white;
   border-radius: 50%;
-  padding: 22px;
-
-  font-size: 22px;
-  box-shadow: 5px 7px 23px -17px;
+  box-shadow: -2px 7px 23px -17px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
 }
-
+.right-arrow i{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 22px;
+}
 /* section-5 start */
 
 /* footer */
@@ -607,7 +635,7 @@ footer {
   background-image: url(../images/footer.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 51px;
+  margin-top: 50px;
   padding-bottom: 50px;
 }
 
